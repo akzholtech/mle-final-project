@@ -3,12 +3,12 @@
 - Бакет в S3: s3-student-mle-20251124-4e76e7f4c1
 
 - Основные файли по проекту
-    api.py — FastAPI приложение и endpoints
-    data_loader.py запрос данных с БД
-    schemas.py — Pydantic модели запроса и ответа
-    service.py — бизнес-логика рекомендаций
-    mlflow_loader.py — загрузка модели из MLflow
-    recommender.py — класс-обёртка над ALS
+    - api.py — FastAPI приложение и endpoints
+    - data_loader.py запрос данных с БД
+    - schemas.py — Pydantic модели запроса и ответа
+    - service.py — бизнес-логика рекомендаций
+    - mlflow_loader.py — загрузка модели из MLflow
+    - recommender.py — класс-обёртка над ALS
 
 Чтобы запустить проект нужны следующие шаги:
 
